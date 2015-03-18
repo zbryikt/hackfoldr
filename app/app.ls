@@ -2,7 +2,7 @@
 
 angular.module('scroll', []).value('$anchorScroll', angular.noop)
 
-angular.module \app <[ui app.templates app.controllers ui.router.state ui.bootstrap]>
+angular.module \app <[ui app.templates app.controllers ui.state ui.bootstrap]>
 .config <[$stateProvider $urlRouterProvider $locationProvider]> ++ ($stateProvider, $urlRouterProvider, $locationProvider) ->
   $stateProvider
     .state 'about' do
@@ -22,7 +22,7 @@ angular.module \app <[ui app.templates app.controllers ui.router.state ui.bootst
       url: '/{docId}'
 
   $urlRouterProvider
-    .otherwise('/0media')
+    .otherwise('/0media.tw')
 
   $locationProvider.html5Mode true
 

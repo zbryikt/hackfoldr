@@ -1,4 +1,4 @@
-angular.module 'app.controllers' <[ui.router.state ngCookies]>
+angular.module 'app.controllers' <[ui.state ngCookies]>
 .controller AppCtrl: <[$scope $window $state $rootScope $timeout]> ++ ($scope, $window, $state, $rootScope, $timeout) ->
   $scope.$watch '$state.current.name' ->
     $scope.irc-enabled = true if it is \irc
@@ -88,7 +88,7 @@ angular.module 'app.controllers' <[ui.router.state ngCookies]>
   $scope.$watch 'collapsed' -> if it?
     $cookies.collapsed = it
 
-  $scope.hackId = if $state.params.hackId => that else '0media'
+  $scope.hackId = if $state.params.hackId => that else '0media.tw'
   $scope.$watch '$state.params.docId' (docId) ->
     $scope.docId = encodeURIComponent encodeURIComponent docId if docId
 
