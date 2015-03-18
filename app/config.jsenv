@@ -1,8 +1,8 @@
 {
-  "DOMAIN_NAME": "hackfoldr.org",
-  "GITHUB_ACCOUNT": "hackfoldr",
-  "HACKFOLDR_ID": "congressoccupied",
-  "GA_ID": "UA-39804485-1",
+  "DOMAIN_NAME": "hack.0media.tw",
+  "GITHUB_ACCOUNT": "zbryikt",
+  "HACKFOLDR_ID": "0media",
+  "GA_ID": "UA-52410923-1",
   "BUILD": "git-unknown",
-  "GOOGLE_API_BROWSER_APPLICATION_KEY": "AIzaSyDN3lT4KenTRpKGvoD1Cbw5yqMxR2iKBes"
+  "GOOGLE_API_BROWSER_APPLICATION_KEY": ""
 }
